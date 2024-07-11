@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="checklist">
+      <div class="checklist__content">
+        <div class="checklist__progress">
+          <svg
+            width="60"
+            height="60"
+            viewBox="-1 -1 62 62"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              id="progress-circle"
+              cx="30"
+              cy="30"
+              r="29.5"
+              stroke="white"
+              stroke-opacity="0.5"
+              stroke-width="1"
+              transform="rotate(-90 30 30)"
+            />
+            <circle
+              id="progress-fill"
+              d="M1 1.5C2.25037 1.5 3.39319 1.53682 4.5 1.63965"
+              cx="30"
+              cy="30"
+              r="29.5"
+              stroke="white"
+              stroke-width="2"
+              transform="rotate(-90 30 30)"
+            />
+          </svg>
+          <div class="checklist__progress-text">0/7</div>
+        </div>
+        <div>
+          <div class="checklist__title">
+            <h3 class="checklist__title-text">Чеклист</h3>
+          </div>
+          <p class="checklist__done">Выполнено: 0 из 7 действий</p>
+          <p class="checklist__action">
+            Следующее действие: Созвониться с клиентом до 23.05.24 12:00
+          </p>
+        </div>
+      </div>
+      <button class="checklist__btn">Открыть чеклист</button>
+    </section>
+  </body>
+</html>
